@@ -2,6 +2,7 @@ const sumAll = function(a, b) {
     let finalSum = 0;
     let smallNumber = 0;
     let bigNumber = 0;
+    
     if (a < b) {
         smallNumber = a;
         bigNumber = b;
