@@ -1,10 +1,10 @@
 const sumAll = function(a, b) {
     if (typeof a != "number" || typeof b != "number"){
-        return 'ERROR'
+        return 'ERROR';
     }
-    
+
     if (a < 0 || b < 0) {
-        return 'ERROR'
+        return 'ERROR';
     }
 
     let finalSum = 0;
@@ -19,11 +19,11 @@ const sumAll = function(a, b) {
         bigNumber = a;
     }
     for (let i = smallNumber; i < bigNumber; i++) {
-        finalSum += i
+        finalSum += i;
     }
-    finalSum += bigNumber
+    finalSum += bigNumber;
 
-    return finalSum
+    return finalSum;
 };
 
 // Do not edit below this line
