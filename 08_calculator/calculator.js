@@ -1,13 +1,18 @@
 const add = function(a, b) {
-  return a + b
+  return a + b;
 };
 
 const subtract = function(a, b) {
-  return a - b
+  return a - b;
 };
 
-const sum = function() {
-	
+const sum = function(numberArray) {
+  if (numberArray.length === 0) {
+    return 0;
+  }
+  let totalSum = 0;
+  numberArray.forEach((element) => totalSum += element);
+  return totalSum;
 };
 
 const multiply = function() {
