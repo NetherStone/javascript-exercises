@@ -3,7 +3,7 @@ const palindromes = function (inputString) {
     workingString = workingString.toLowerCase();
 
     workingString = workingString.split('');
-    let reverseWorkingString = workingString.reverse();
+    let reverseWorkingString = workingString.slice().reverse();
 
     for (let i = 0; i < workingString.length; i++) {
         if (workingString[i] !== reverseWorkingString[i]) {
